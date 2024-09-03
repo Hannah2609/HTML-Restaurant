@@ -6,6 +6,58 @@
     <title>Contact</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Restaurant KEA</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/food_menu.html">Menu</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <p><i>Guldbergsgade 29N 2200 Copenhagen</i></p>
+                <p><i>Phone no: <a href="tel:20825370">20 82 53 70</a></i></p>
+                <p><i>Email: <a href="mailto:info@restaurantkea.dk">info@restaurantkea.dk</a></i></p>
+            </div>
+            <img src="/img/map.jpg" alt="map">
+        </section>
+        <form>
+            <fieldset>
+                <legend>Contact Form</legend>
+                    <div>
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="phone">Phone no</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="persons">Persons</label>
+                        <input type="number" id="persons" name="persons">
+                    </div>
+                    <div>
+                        <label for="date">Date and time</label>
+                        <input type="datetime-local" id="date" name="date">
+                    </div>
+                    <div>
+                        <label for="message">Further information</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>© 2023 KEA Development</p>
+    </footer>
 </body>
 </html>
